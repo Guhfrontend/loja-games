@@ -11,6 +11,8 @@ Neste projeto, utilizamos Java Spring e MySQL para implementar um CRUD (Create, 
 
 ## Desafio Proposto
 
+![image](https://github.com/Guhfrontend/loja-games/assets/138324368/49f57070-091f-4d36-8687-b30ad2879229)
+
 
 # Tecnologias utilizadas
 - Java
@@ -28,6 +30,8 @@ Pré-requisitos: Java 17 e Spring Boot 3
 ```bash
 git clone https://github.com/Guhfrontend/loja-games
 ```
+
+*ps: para o caso de clonar, troque a porta do banco de dados do MySQL no application.properties para a porta padrão 3306, minha porta é 3307.
 
 # Autor
 
