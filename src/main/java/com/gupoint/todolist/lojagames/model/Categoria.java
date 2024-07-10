@@ -13,16 +13,16 @@ public class Categoria {
     private Long id;
 
     @NotBlank(message = "O nome é obrigatório")
-    @Size(min = 5, max = 100, message = "O atributo título deve conter no mínimo 5 e no máximo 100 caracteres")
+    @Size(min = 3, max = 100, message = "O atributo título deve conter no mínimo 5 e no máximo 100 caracteres")
     private String nome;
-    private String descricao;
+    private String descricaoCategoria;
 
     public Categoria(){}
 
-    public Categoria(Long id, String nome, String descricao) {
+    public Categoria(Long id, String nome, String descricaoCategoria) {
         this.id = id;
         this.nome = nome;
-        this.descricao = descricao;
+        this.descricaoCategoria = descricaoCategoria;
     }
 
     public Long getId() {
@@ -41,11 +41,11 @@ public class Categoria {
         this.nome = nome;
     }
 
-    public String getDescricao() {
-        return descricao;
+    public String getDescricaoCategoria() {
+        return descricaoCategoria;
     }
 
-    public void setDescricao(String descricao) {
-        this.descricao = descricao;
+    public void setDescricaoCategoria(String descricaoCategoria) {
+        this.descricaoCategoria = descricaoCategoria;
     }
 }
